@@ -1,6 +1,7 @@
 #board {
     padding-top: 3em;
     text-align: center;
+    font-family: monospace;
 }
 
 div.row > div {
@@ -8,6 +9,8 @@ div.row > div {
     float: left;
     height: 100px;
     width: 100px;
+    font-size: 75px;
+    line-height: 100px;
 }
 
 .row {
@@ -15,6 +18,10 @@ div.row > div {
     margin: 0 auto;
     clear: both;
     width: 302px;
+}
+
+.heading {
+    text-align: center;
 }
 
 .top {
